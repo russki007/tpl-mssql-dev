@@ -1,0 +1,47 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets & credentials
+*.pfx
+*.key
+*.pem
+appsettings.*.json
+!appsettings.Development.json
+secrets.json
+.env
+.env.*
+
+# SQL backups
+*.bak
+*.mdf
+*.ldf
+
+# Build output
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+publish/
